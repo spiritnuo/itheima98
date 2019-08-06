@@ -73,7 +73,6 @@ public class EsTest {
         List<Article> list = articleServer.findPage(pageable);
         for (Article article : list) {
             System.out.println(article);
-            System.out.println("222");
         }
     }
 
